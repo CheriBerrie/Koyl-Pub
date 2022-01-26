@@ -9,4 +9,4 @@
 *[- Corridor Of Youtubers 2](https://www.roblox.com/games/6083203018/Christmas-Corridor-Of-Youtubers-2)*
 ## Credits
 - *CheriBerrie*
-- *MunDane*
+- *Extra-MunDane*
