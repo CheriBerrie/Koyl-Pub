@@ -13,55 +13,15 @@
 
 ## Uwuware Library
 ```
---// Exploit Check \\--
-if #{hookmetamethod, checkcaller} ~= 2 then
-    while true do
-    end
-end
-
---// Exploit Fix \\--
-if not pcall(function() return syn.protect_gui end) then
-    syn = {}
-    syn.protect_gui = function(A_1)
-        A_1.Parent = game:GetService("CoreGui")
-    end
-end
-
---// Service \\--
-local Players = game:GetService("Players")
-local TweenS = game:GetService("TweenService")
-local UIS = game:GetService("UserInputService")
-
---// Variables \\--
-local Player = Players.LocalPlayer
-local TweenI = TweenInfo.new(5,Enum.EasingStyle.Quad)
-local InfiniteJumpEnabled = true
-
---// Toggles \\--
-_G.Template = true
-
---// Functions \\--
-function tweentp(...)
-   local tic_k = tick();
-   local params = {...};
-   local cframe = CFrame.new(params[1],params[2],params[3]);
-   local tween,err = pcall(function()
-       local tween = TweenS:Create(Player.Character["HumanoidRootPart"],TweenI,{CFrame=cframe});
-       tween:Play();
-   end)
-   if not tween then return err end
-end
-
 --// UI Library \\--
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/un-named%20backups/jans", true))()
-
 local Window = Library:CreateWindow("A")
 
 local Folder = Window:AddFolder('B')
 Folder:AddToggle({text = "C", callback = function(v) print(v) end})
-Folder:AddButton({text = 'D', callback = function() print('button clicked') end})
-Folder:AddSlider({text = 'E', min = 1, max = 100, callback = function(v) print(v) end})
-Folder:AddList({text = 'F', values = {'yo', 'yes'}, callback = function(v) print(v) end})
+Folder:AddButton({text = 'D', callback = function() print('You clicked a button, good job!') end})
+Folder:AddSlider({text = 'E', min = 69, max = 420, callback = function(v) print(v) end})
+Folder:AddList({text = 'F', values = {'Option1', 'Option2'}, callback = function(v) print(v) end})
 Folder:AddBox({text = 'G', callback = function(v) print(v) end})
 Folder:AddColor({text = 'H', callback = function(v) print(v) end})
 Library:Init()
