@@ -7,6 +7,7 @@
 
 ## Games
 *[- Corridor Of Youtubers 2](https://www.roblox.com/games/6083203018/Christmas-Corridor-Of-Youtubers-2)*
+*[- Brick Simulator](https://web.roblox.com/games/4969719864/Brick-Simulator)*
 ## Credits
 - *[CheriBerrie](https://github.com/CheriBerrie)*
 - *[Extra-MunDane](https://github.com/Extra-Mundane)*
