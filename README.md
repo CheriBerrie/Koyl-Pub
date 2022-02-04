@@ -1,4 +1,4 @@
-# Coyl-Pub
+# Koyl-Pub 🎉
 ## Information
 
 **Coyl Pub Is A Multi Game Roblox Script Hub Run By 2 People, Unique features, Random games and suggest games are included in this script hub for the amazing price of FREE. ✨**
